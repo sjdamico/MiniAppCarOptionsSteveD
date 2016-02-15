@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC438C3F1C711DB400202E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC438C3E1C711DB400202E83 /* AppDelegate.swift */; };
+		BC438C411C711DB400202E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC438C401C711DB400202E83 /* ViewController.swift */; };
+		BC438C441C711DB400202E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC438C421C711DB400202E83 /* Main.storyboard */; };
+		BC438C461C711DB400202E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC438C451C711DB400202E83 /* Assets.xcassets */; };
+		BC438C491C711DB400202E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC438C471C711DB400202E83 /* LaunchScreen.storyboard */; };
+		BC438C541C711DB400202E83 /* MiniAppCarOptionsSteveDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC438C531C711DB400202E83 /* MiniAppCarOptionsSteveDTests.swift */; };
+		BC438C5F1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC438C5E1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC438C501C711DB400202E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC438C331C711DB400202E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC438C3A1C711DB400202E83;
+			remoteInfo = MiniAppCarOptionsSteveD;
+		};
+		BC438C5B1C711DB400202E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC438C331C711DB400202E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC438C3A1C711DB400202E83;
+			remoteInfo = MiniAppCarOptionsSteveD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC438C3B1C711DB400202E83 /* MiniAppCarOptionsSteveD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAppCarOptionsSteveD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC438C3E1C711DB400202E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC438C401C711DB400202E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC438C431C711DB400202E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC438C451C711DB400202E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC438C481C711DB400202E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC438C4A1C711DB400202E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC438C4F1C711DB400202E83 /* MiniAppCarOptionsSteveDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniAppCarOptionsSteveDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC438C531C711DB400202E83 /* MiniAppCarOptionsSteveDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppCarOptionsSteveDTests.swift; sourceTree = "<group>"; };
+		BC438C551C711DB400202E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC438C5A1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniAppCarOptionsSteveDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC438C5E1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppCarOptionsSteveDUITests.swift; sourceTree = "<group>"; };
+		BC438C601C711DB400202E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC438C381C711DB400202E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C4C1C711DB400202E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C571C711DB400202E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC438C321C711DB400202E83 = {
+			isa = PBXGroup;
+			children = (
+				BC438C3D1C711DB400202E83 /* MiniAppCarOptionsSteveD */,
+				BC438C521C711DB400202E83 /* MiniAppCarOptionsSteveDTests */,
+				BC438C5D1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests */,
+				BC438C3C1C711DB400202E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC438C3C1C711DB400202E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC438C3B1C711DB400202E83 /* MiniAppCarOptionsSteveD.app */,
+				BC438C4F1C711DB400202E83 /* MiniAppCarOptionsSteveDTests.xctest */,
+				BC438C5A1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC438C3D1C711DB400202E83 /* MiniAppCarOptionsSteveD */ = {
+			isa = PBXGroup;
+			children = (
+				BC438C3E1C711DB400202E83 /* AppDelegate.swift */,
+				BC438C401C711DB400202E83 /* ViewController.swift */,
+				BC438C421C711DB400202E83 /* Main.storyboard */,
+				BC438C451C711DB400202E83 /* Assets.xcassets */,
+				BC438C471C711DB400202E83 /* LaunchScreen.storyboard */,
+				BC438C4A1C711DB400202E83 /* Info.plist */,
+			);
+			path = MiniAppCarOptionsSteveD;
+			sourceTree = "<group>";
+		};
+		BC438C521C711DB400202E83 /* MiniAppCarOptionsSteveDTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC438C531C711DB400202E83 /* MiniAppCarOptionsSteveDTests.swift */,
+				BC438C551C711DB400202E83 /* Info.plist */,
+			);
+			path = MiniAppCarOptionsSteveDTests;
+			sourceTree = "<group>";
+		};
+		BC438C5D1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC438C5E1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.swift */,
+				BC438C601C711DB400202E83 /* Info.plist */,
+			);
+			path = MiniAppCarOptionsSteveDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC438C3A1C711DB400202E83 /* MiniAppCarOptionsSteveD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC438C631C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveD" */;
+			buildPhases = (
+				BC438C371C711DB400202E83 /* Sources */,
+				BC438C381C711DB400202E83 /* Frameworks */,
+				BC438C391C711DB400202E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniAppCarOptionsSteveD;
+			productName = MiniAppCarOptionsSteveD;
+			productReference = BC438C3B1C711DB400202E83 /* MiniAppCarOptionsSteveD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC438C4E1C711DB400202E83 /* MiniAppCarOptionsSteveDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC438C661C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveDTests" */;
+			buildPhases = (
+				BC438C4B1C711DB400202E83 /* Sources */,
+				BC438C4C1C711DB400202E83 /* Frameworks */,
+				BC438C4D1C711DB400202E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC438C511C711DB400202E83 /* PBXTargetDependency */,
+			);
+			name = MiniAppCarOptionsSteveDTests;
+			productName = MiniAppCarOptionsSteveDTests;
+			productReference = BC438C4F1C711DB400202E83 /* MiniAppCarOptionsSteveDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC438C591C711DB400202E83 /* MiniAppCarOptionsSteveDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC438C691C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveDUITests" */;
+			buildPhases = (
+				BC438C561C711DB400202E83 /* Sources */,
+				BC438C571C711DB400202E83 /* Frameworks */,
+				BC438C581C711DB400202E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC438C5C1C711DB400202E83 /* PBXTargetDependency */,
+			);
+			name = MiniAppCarOptionsSteveDUITests;
+			productName = MiniAppCarOptionsSteveDUITests;
+			productReference = BC438C5A1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC438C331C711DB400202E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Steve D'Amico";
+				TargetAttributes = {
+					BC438C3A1C711DB400202E83 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC438C4E1C711DB400202E83 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC438C3A1C711DB400202E83;
+					};
+					BC438C591C711DB400202E83 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC438C3A1C711DB400202E83;
+					};
+				};
+			};
+			buildConfigurationList = BC438C361C711DB400202E83 /* Build configuration list for PBXProject "MiniAppCarOptionsSteveD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC438C321C711DB400202E83;
+			productRefGroup = BC438C3C1C711DB400202E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC438C3A1C711DB400202E83 /* MiniAppCarOptionsSteveD */,
+				BC438C4E1C711DB400202E83 /* MiniAppCarOptionsSteveDTests */,
+				BC438C591C711DB400202E83 /* MiniAppCarOptionsSteveDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC438C391C711DB400202E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC438C491C711DB400202E83 /* LaunchScreen.storyboard in Resources */,
+				BC438C461C711DB400202E83 /* Assets.xcassets in Resources */,
+				BC438C441C711DB400202E83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C4D1C711DB400202E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C581C711DB400202E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC438C371C711DB400202E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC438C411C711DB400202E83 /* ViewController.swift in Sources */,
+				BC438C3F1C711DB400202E83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C4B1C711DB400202E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC438C541C711DB400202E83 /* MiniAppCarOptionsSteveDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC438C561C711DB400202E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC438C5F1C711DB400202E83 /* MiniAppCarOptionsSteveDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC438C511C711DB400202E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC438C3A1C711DB400202E83 /* MiniAppCarOptionsSteveD */;
+			targetProxy = BC438C501C711DB400202E83 /* PBXContainerItemProxy */;
+		};
+		BC438C5C1C711DB400202E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC438C3A1C711DB400202E83 /* MiniAppCarOptionsSteveD */;
+			targetProxy = BC438C5B1C711DB400202E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC438C421C711DB400202E83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC438C431C711DB400202E83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC438C471C711DB400202E83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC438C481C711DB400202E83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC438C611C711DB400202E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC438C621C711DB400202E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC438C641C711DB400202E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniAppCarOptionsSteveD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC438C651C711DB400202E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniAppCarOptionsSteveD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC438C671C711DB400202E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniAppCarOptionsSteveDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniAppCarOptionsSteveD.app/MiniAppCarOptionsSteveD";
+			};
+			name = Debug;
+		};
+		BC438C681C711DB400202E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniAppCarOptionsSteveDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniAppCarOptionsSteveD.app/MiniAppCarOptionsSteveD";
+			};
+			name = Release;
+		};
+		BC438C6A1C711DB400202E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniAppCarOptionsSteveDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniAppCarOptionsSteveD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC438C6B1C711DB400202E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniAppCarOptionsSteveDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.MiniAppCarOptionsSteveDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniAppCarOptionsSteveD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC438C361C711DB400202E83 /* Build configuration list for PBXProject "MiniAppCarOptionsSteveD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC438C611C711DB400202E83 /* Debug */,
+				BC438C621C711DB400202E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC438C631C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC438C641C711DB400202E83 /* Debug */,
+				BC438C651C711DB400202E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC438C661C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC438C671C711DB400202E83 /* Debug */,
+				BC438C681C711DB400202E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC438C691C711DB400202E83 /* Build configuration list for PBXNativeTarget "MiniAppCarOptionsSteveDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC438C6A1C711DB400202E83 /* Debug */,
+				BC438C6B1C711DB400202E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC438C331C711DB400202E83 /* Project object */;
+}
